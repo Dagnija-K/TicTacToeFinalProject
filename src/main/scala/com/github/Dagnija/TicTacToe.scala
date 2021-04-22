@@ -15,7 +15,6 @@ object TicTacToe extends App {
                  )
 
   val state = new GameState()
-  //  def init():GameState = {
 
   println("Let's play Tic-tac-toe!")
 
