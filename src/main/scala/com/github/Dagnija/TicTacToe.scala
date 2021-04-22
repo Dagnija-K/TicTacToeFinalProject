@@ -61,10 +61,10 @@ object TicTacToe extends App {
     state.playground -= movesMade
   }
   if (containsSubset(state.playerXMoves)) {
-    println("Player X, you win")
+    println(s"$playerX, you win")
   }
   else if (containsSubset(state.playerOMoves)) {
-    println("Player O, you win")
+    println(s"$playerO, you win")
   }
   else println("It is a draw. There is no winner.")
 
