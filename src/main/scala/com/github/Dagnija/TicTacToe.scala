@@ -3,7 +3,7 @@ package com.github.Dagnija
 import scala.collection.mutable
 import scala.io.StdIn.readLine
 
-object TicTacToe {
+object TicTacToe extends App {
 
   class GameState(var playground: mutable.SortedSet[Int] = collection.mutable.SortedSet(1, 2, 3, 4, 5, 6, 7, 8, 9), //total playground size 9
                   val minMove: Int = 1,
